@@ -1,0 +1,54 @@
+header{
+    text-align: center;
+}
+.songsL{
+    position: relative;
+    left: 50px;
+    top: 40px;
+    height: 30vh;
+    width: 30vw;
+    border:2px solid;
+}
+.song{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 2px black solid;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.popup{
+    content-visibility: hidden;
+}
+
+.player{
+    width: 500px;
+    height: 75px;
+    border: 1px black solid;
+    border-radius: 2%;
+    position: absolute;
+    right: 150px;
+    top: 200px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 2rem;
+    margin-left: 30px;
+}
+
+.next{
+    cursor: pointer;
+}
+.pause{
+    cursor: pointer;
+}
+.preveius{
+    cursor: pointer;
+}
